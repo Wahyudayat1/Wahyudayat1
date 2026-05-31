@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 Saya handal dalam pengembangan frontend<br>👯 I’m looking to collaborate on<br>🤝 Bersedia untuk kerja sama<br>💬 Tanya saya lebih lanjut<br>⚡ Saya suka web development|IT technicial Support
+🔭 Saya handal dalam pengembangan frontend<br>👯 I’m looking to collaborate on<br>🤝 Bersedia untuk kerja sama<br>💬 Tanya saya lebih lanjut<br>⚡ Saya suka web development | IT technicial Support
 
 
 ## 🌐 Socials:
