@@ -1,0 +1,47 @@
+<svg fill="none" width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    .bg { fill: #0d1117; rx: 12px; }
+    .border { stroke: #30363d; stroke-width: 2; fill: none; rx: 12px; }
+    .title { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 13px; }
+    .card-bg { fill: #161b22; rx: 10px; stroke: #30363d; stroke-width: 1.5; }
+    .text-purple { fill: #c084fc; font-family: 'Courier New', monospace; font-size: 16px; font-weight: bold; }
+    .text-green { fill: #4ade80; font-family: 'Courier New', monospace; font-size: 15px; font-weight: bold; }
+    .text-white { fill: #f1f5f9; font-family: 'Courier New', monospace; font-size: 15px; }
+    .text-muted { fill: #94a3b8; font-family: 'Courier New', monospace; font-size: 13px; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="800" height="380" class="bg"/>
+  <rect width="800" height="380" class="border"/>
+
+  <!-- Window Header Buttons -->
+  <circle cx="25" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="65" cy="22" r="6" fill="#27c93f"/>
+  <text x="400" y="26" text-anchor="middle" class="title">wahyudayat1@github:~ (profile-banner)</text>
+
+  <!-- Frame Kiri: Foto Profil GitHub Bertopi Kamu -->
+  <rect x="25" y="55" width="280" height="300" class="card-bg"/>
+  <defs>
+    <clipPath id="avatar-clip">
+      <rect x="40" y="70" width="250" height="270" rx="8"/>
+    </clipPath>
+  </defs>
+  <image xlink:href="https://github.com/Wahyudayat1.png" x="40" y="70" width="250" height="270" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)"/>
+
+  <!-- Frame Kanan: Info Terminal -->
+  <rect x="325" y="55" width="450" height="300" class="card-bg"/>
+
+  <text x="350" y="95" class="text-white">👤 Wahyu Hidayat</text>
+  <text x="350" y="130" class="text-purple">🚀 Frontend &amp; IT Support</text>
+  <text x="350" y="165" class="text-green">📷 @wahyuuuhdytt_</text>
+  <text x="350" y="200" class="text-white">💼 Wahyu Hidayat</text>
+
+  <!-- Preview Grid Ular Decorative -->
+  <g transform="translate(350, 220)">
+    <rect width="400" height="110" fill="#0d1117" rx="6" stroke="#30363d"/>
+    <path d="M 20 90 L 20 60 L 70 60 L 70 30 L 120 30" stroke="#f472b6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 140 90 L 200 90 L 200 45 L 260 45 L 260 75 L 300 75" stroke="#4ade80" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 320 90 L 320 20 L 370 20 L 370 70" stroke="#38bdf8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
